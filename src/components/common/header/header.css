@@ -1,0 +1,94 @@
+header {
+    background-color: #fff;
+    height: 8vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 25px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+
+header p {
+    width: 170px;
+}
+
+header .logo {
+    position: relative;
+    /* top: -10px; */
+}
+
+header a {
+    margin-left: 30px;
+    transition: 0.5s;
+    font-weight: 500;
+    position: relative;
+    top: -10px;
+}
+
+header a:hover {
+    color: #140341;
+}
+
+header span {
+    width: auto;
+    padding: 0px 6px;
+    background: #140341;
+    border-radius: 50px;
+    color: #ffffff;
+    margin-right: 4px;
+    font-weight: 400;
+}
+
+header h4 {
+    font-weight: 500;
+    margin-right: 20px;
+    position: relative;
+    top: -15px;
+}
+
+header .toggle {
+    display: none;
+}
+
+header .btn1 {
+    position: relative;
+    top: -10px;
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+
+    header img {
+        margin-top: 10px;
+    }
+
+    header .button {
+        display: none;
+    }
+
+    header .nav .flex {
+        display: none;
+    }
+
+    header .toggle {
+        display: block;
+        margin-top: 2px;
+    }
+
+    header .small {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background-color: #1f0763;
+        padding: 20px;
+    }
+
+    header li a {
+        display: inline-block;
+        margin-bottom: 20px;
+        color: #fff;
+    }
+}
